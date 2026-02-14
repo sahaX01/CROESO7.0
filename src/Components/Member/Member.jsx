@@ -7,12 +7,18 @@ gsap.registerPlugin(ScrollTrigger);
 // Images
 import subham from "../../assets/members/subhamsaha.png";
 import soham from "../../assets/members/soham.png";
+import rupanjan from "../../assets/members/rupanjan.png";
 import pritam from "../../assets/members/pritam.png";
 import shabnur from "../../assets/members/shabnur.png";
 import koyel from "../../assets/members/koyel.png";
+import pritish from "../../assets/members/pritish.png";
 import driti from "../../assets/members/driti.png";
+import nayak from "../../assets/members/nayak.png";
+import nilesh from "../../assets/members/nilesh.png";
+import archisman from "../../assets/members/archisman.png";
 import papiya from "../../assets/members/papiya.png";
 import arkadip from "../../assets/members/arkadip.png";
+import sayan from "../../assets/members/sayan.png";
 import anirban from "../../assets/members/anirban.png";
 import biswajit from "../../assets/members/biswajit.png";
 import nahid from "../../assets/members/nahid.png";
@@ -27,6 +33,8 @@ import farhat from "../../assets/members/farhat.png";
 import bidisha from "../../assets/members/bidisha.png";
 import umang from "../../assets/members/umang.png";
 import rishita from "../../assets/members/rishita.png";
+import ayan from "../../assets/members/ayan.png";
+import tathagatha from "../../assets/members/tathagata.png";
 import dipayan from "../../assets/members/dipayan.png";
 import anurag from "../../assets/members/anurag.png";
 import kumar from "../../assets/members/kumar.png";
@@ -52,6 +60,8 @@ import snehasish from "../../assets/members/snehasish.png";
 import annwesha from "../../assets/members/annwesha.png";
 import rishiraj from "../../assets/members/rishiraj.png";
 import aditya from "../../assets/members/aditya.png";
+import adhikari from "../../assets/members/adhikari.png";
+import yashee from "../../assets/members/yashee.png";
 
 
 
@@ -75,6 +85,24 @@ const members = [
     instagram: "https://www.instagram.com/_u/mine_pritam/",
   },
   {
+    name: "Rupanjan Roy",
+    dept: "2nd Yr, EE",
+    image: rupanjan,
+    instagram: "https://www.instagram.com/_u/roy_rupanjan005",
+  },
+  {
+    name: "Ayan Kulodhyay",
+    dept: "2nd Yr, ME",
+    image: ayan,
+    instagram: "https://www.instagram.com/_u/_aayan_.7._",
+  },
+  {
+    name: "Tothagoto Kalsar",
+    dept: "2nd Yr, ME",
+    image: tathagatha,
+    instagram: "https://www.instagram.com/_u/tkalsar",
+  },
+  {
     name: "Shabnur Mallick",
     dept: "2nd Yr, EE",
     image: shabnur,
@@ -92,19 +120,25 @@ const members = [
     image: driti,
     instagram: "https://www.instagram.com/_u/dritz.seno/",
   },
-
   {
-    name: "Arkadip Debnath",
-    dept: "2nd Yr, ME",
-    image: arkadip,
-    instagram: "https://www.instagram.com/_u/a_non_ymo_us_/",
+    name: "Sampritee Adhikari",
+    dept: "2nd Yr, ECE",
+    image: adhikari,
+    instagram: "https://www.instagram.com/_u/sampriti.__________",
+  },
+     {
+    name: "Rishiraj Das Ghosh",
+    dept: "2nd Yr, ECE",
+    image: rishiraj,
+    instagram: "https://www.instagram.com/_u/__.r.d.g.__/",
   },
   {
-    name: "Anirban Biswas",
+    name: "Aditya Dey",
     dept: "2nd Yr, ME",
-    image: anirban,
-    instagram: "https://www.instagram.com/_u/anirban_biswas06/",
+    image: aditya,
+    instagram: "https://www.instagram.com/_u/adityax141/",
   },
+  
   {
     name: "Papiya Banik",
     dept: "2nd Yr, CSE",
@@ -172,6 +206,18 @@ const members = [
     instagram: "https://www.instagram.com/_u/alluring_silence_8646/",
   },
   {
+    name: "Pritismay Halder",
+    dept: "2nd Yr ,CSE",
+    image: pritish,
+    instagram: "https://www.instagram.com/_u/_pritish_2005_",
+  },
+   {
+    name: "Niroj Mahatha",
+    dept: "2nd Yr, ECE",
+    image: niroj,
+    instagram: "https://www.instagram.com/_u/mahatha____sidhan/",
+  },
+  {
     name: "Minali Singh",
     dept: "2nd Yr, EE",
     image: minali,
@@ -182,6 +228,12 @@ const members = [
     dept: "2nd Yr, CE",
     image: farhat,
     instagram: "https://www.instagram.com/_u/farhat_rahaman/",
+  },
+  {
+    name: "Somyajit Nayak",
+    dept: "2nd Yr, ECE",
+    image: nayak,
+    instagram: "https://www.instagram.com/_u/somyajit698",
   },
   {
     name: "Bidisha Mondal",
@@ -213,6 +265,7 @@ const members = [
     image: anurag,
     instagram: "https://www.instagram.com/_u/an1rag/",
   },
+  
   {
     name: "Rupak Dey",
     dept: "2nd Yr, ME",
@@ -220,23 +273,37 @@ const members = [
     instagram: "https://www.instagram.com/_u/clapton_rupak/",
   },
   {
+    name: "Arkadip Debnath",
+    dept: "2nd Yr, ME",
+    image: arkadip,
+    instagram: "https://www.instagram.com/_u/a_non_ymo_us_/",
+  },
+  {
+    name: "Anirban Biswas",
+    dept: "2nd Yr, ME",
+    image: anirban,
+    instagram: "https://www.instagram.com/_u/anirban_biswas06/",
+  },
+  {
+    name: "Snehashis Ghosh ",
+    dept: "2nd Yr, EE",
+    image: snehasish,
+    instagram: "https://www.instagram.com/_u/mr_shinchan_editzs/",
+  },
+  {
     name: "Harasundar Patra",
     dept: "2nd Yr ,ME",
     image: harasundar,
     instagram: "https://www.instagram.com/_u/harasundar_/",
   },
+  
   {
     name: "Arnab Bar",
     dept: "2nd Yr, CE",
     image: arnab,
     instagram: "https://www.instagram.com/_u/arnab_ar5/",
   },
-  {
-    name: "Niroj Mahata",
-    dept: "2nd Yr, ECE",
-    image: niroj,
-    instagram: "https://www.instagram.com/_u/mahatha____sidhan/",
-  },
+ 
   {
     name: "Taukir Reja",
     dept: "2nd Yr, CSE",
@@ -261,20 +328,10 @@ const members = [
     image: mainak,
     instagram: "https://www.instagram.com/_u/zen.x_mainak/",
   },
-    {
-    name: "Rishiraj Das Ghosh",
-    dept: "2nd Yr, ECE",
-    image: rishiraj,
-    instagram: "https://www.instagram.com/_u/__.r.d.g.__/",
-  },
+ 
+  
   {
-    name: "Aditya Dey",
-    dept: "2nd Yr, ME",
-    image: aditya,
-    instagram: "https://www.instagram.com/_u/adityax141/",
-  },
-  {
-    name: "AYUSH NAGENDRA PATWA",
+    name: "AYUSH  PATWA",
     dept: "2nd Yr, CE",
     image: ayush,
     instagram: "https://www.instagram.com/_u/shades.of.ayu_/",
@@ -292,7 +349,7 @@ const members = [
     instagram: "https://www.instagram.com/_u/k_a_r_a_n_apd/",
   },
   {
-    name: "Rikta Mondal",
+    name: "Rikta Mandal",
     dept: "2nd Yr, CSE",
     image: rikta,
     instagram: "https://www.instagram.com/_u/_rikta____/",
@@ -327,17 +384,36 @@ const members = [
     image: prasenjit,
     instagram: "https://www.instagram.com/_u/prosen_the_main_character/",
   },
-  {
-    name: "Snehashis Ghosh ",
-    dept: "2nd Yr, EE",
-    image: snehasish,
-    instagram: "https://www.instagram.com/_u/mr_shinchan_editzs/",
-  },
+  
   {
     name: "Anwesha Ghosh",
     dept: "2nd Yr, CSE",
     image: annwesha,
     instagram: "https://www.instagram.com/_u/anwesha_._ghosh/",
+  },
+  {
+    name: "Eyashee Sarkar",
+    dept: "2nd Yr, EE",
+    image: yashee,
+    instagram: "https://www.instagram.com/_u/august.shine",
+  },
+  {
+    name: "Nilesh Paul",
+    dept: "2nd Yr, EE",
+    image: nilesh,
+    instagram: "https://www.instagram.com/_u/_nilesh_official_2006",
+  },
+  {
+    name: "Archisman Ghatak",
+    dept: "2nd Yr, CE",
+    image: archisman,
+    instagram: "https://www.instagram.com/_u/archie__05",
+  },
+  {
+    name: "Sayan Debnath",
+    dept: "2nd Yr, CSE",
+    image: sayan,
+    instagram: "https://www.instagram.com/_u/sayandebnath482",
   },
 ];
 

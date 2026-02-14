@@ -134,7 +134,9 @@ const Home = () => {
             ref={titleRef}
             className="md:text-7xl text-3xl text-blue-200"
           >
-            {splitWords("CROESO 7.0")}
+            
+            {splitWords("CROESO    7.0")}
+
           </h1>
 
           {/* SUBTITLE */}
